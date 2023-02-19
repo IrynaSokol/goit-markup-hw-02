@@ -1,0 +1,248 @@
+:root{
+    --primary-font:'Roboto',sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --primary-text-color:#2E2F42;
+    --secondary-text-color:#434455;
+    --accent-color:#4D5AE5;
+    --accent-color-portfolio:#404BBF;
+    --main-white-color:#FFFFFF;
+    --main-backgroud-color:#F4F4FD;
+    --footer-logo-color:#E7E9FC;
+ 
+}
+
+.list {
+    list-style: none;
+}
+
+.visually-hidden{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+body{
+    font-family: var(--primary-font);
+}
+
+/* WebStudio header */
+
+.logotype-header{
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+.logotype-header span{
+    color: var(--primary-text-color);
+  
+}
+
+.menu-link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-email, .contact-phone {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;   
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+
+.contact-email:hover,
+.contact-email:focus {
+ color: var(--accent-color);
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+color: var(--accent-color-web);
+}
+
+/* Web Studio hero section */
+.hero{
+    background-color: var(--primary-text-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: var(--main-white-color);
+}
+
+
+.modal-btn {
+    text-decoration: none;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--main-white-color);
+    background:var(--primary-text-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--main-white-color);
+}
+
+/* Portfolio hero section */
+.nav-btn{
+    text-decoration: none;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    background:var(--main-backgroud-color);
+}
+.nav-btn:hover,
+.nav-btn:focus {
+    background-color: var(--accent-color-portfolio);
+    color: var(--main-white-color);
+}
+
+/* Portfolio section */
+.galary-header{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.galary-text{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-text-color);
+}
+
+
+/* Web Studio section 1 */
+
+.goals-item-header {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.goals-item-text {
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.header-two {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+
+
+/* section 3 */
+.employee-card{
+    background: var(--main-backgroud-color);
+}
+
+.employee-card-list {
+    background:var(--main-white-color);
+}
+
+
+.employee-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.employee-position {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+}
+
+/*  Web Studio and Portfolio footer */
+.footer {
+    background-color:var(--primary-text-color)
+}
+
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: var(--footer-logo-color);
+}
+.logotype-footer {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.logotype-footer span {
+    color: var(--main-backgroud-color);
+
+}
